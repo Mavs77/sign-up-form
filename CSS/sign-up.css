@@ -80,10 +80,10 @@ body {
 
 input {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   border: 2px rgb(27, 27, 27); 
   height: 25px; 
-  width: 225px;
+  width: 240px;
   padding: 5px;
   color: white;
   background-color: rgba(0, 0, 0, 0)
