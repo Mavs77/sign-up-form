@@ -5,9 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Project Sign Up Form</title>
     <link rel="stylesheet" href="CSS/sign-up.css" />
-    <div>
-      <p>Dummy content</p>
-    </div>
   </head>
-  <body></body>
+  <body>
+    <div class="parent-container">
+      <div class="image-container">
+        <img src="Images/Background-image.jpg" alt="" />
+      </div>
+      <div class="form-container">
+        <div class="dummy-text">
+          <p><strong>Disclaimer:</strong>This is not a real online service!</p>
+          <p>
+            You know you need something like this in your life to help your
+            deepest dreams. Sign up now to book you dream destination!!!
+          </p>
+        </div>
+        <div class="form-content">
+          <form action="" id="myForm">
+            <p>Sign up Today</p>
+            <section class="user-input">
+              <div class="input-container">
+                <label for="First Name">First Name</label>
+                <input
+                  type="text"
+                  class="First Name"
+                  required
+                  placeholder="Please enter first name"
+                />
+              </div>
+              <div class="input-container">
+                <label for="Last Name">Last Name</label>
+                <input
+                  type="text"
+                  class="Last Name"
+                  required
+                  placeholder="Please enter last name"
+                />
+              </div>
+              <div class="input-container">
+                <label for="Email">Email</label>
+                <input
+                  type="email"
+                  class="Email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="input-container">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="password"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <div class="input-container">
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  class="confirm-password"
+                  placeholder="re-enter password"
+                  required
+                />
+              </div>
+            </section>
+          </form>
+        </div>
+        <div class="account-footer">
+          <button type="submit" form="myForm" onclick="validatePassword()">
+            Create Account
+          </button>
+          <p>Already have an accout? Log in</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="JS/password-match.js"></script>
 </html>

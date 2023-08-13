@@ -1,4 +1,63 @@
 body {
   background-color: rgb(14, 13, 13);
-  color: white;
+  color: rgb(17, 16, 16);
+}
+
+.parent-container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  max-width: 1600px;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  display: grid;
+  place-items: center;
+  width: 60vw;
+  height: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  background-color: white;
+  padding-left: 15px;
+  position: relative;
+}
+
+.dummy-text {
+  position: absolute;
+  top: 100px;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.form-content {
+  position: absolute;
+  top: 300px; 
+}
+
+.user-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 15px;
+  align-self: center;
+  padding: 1px;
+}
+
+.account-footer {
+  position: absolute;
+  top: 600px;
 }
