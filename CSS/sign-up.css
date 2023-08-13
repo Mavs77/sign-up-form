@@ -25,9 +25,13 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
-  background-color: white;
+  background-color: rgba(2, 26, 134, 0.87);
+  color: white; 
+  font-weight: 700;
+  font-size: 20px;
   padding-left: 15px;
   position: relative;
+
 }
 
 .dummy-text {
@@ -52,12 +56,41 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-size: 15px;
+  font-size: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
   align-self: center;
   padding: 1px;
 }
 
 .account-footer {
   position: absolute;
-  top: 600px;
+  top: 720px;
+}
+
+input {
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 2px rgb(27, 27, 27); 
+  height: 25px; 
+  width: 225px;
+  padding: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+button {
+  font-family: arial;
+  border: 2px gray;
+  height: 30px;
+  width: 180px;
+  padding: 2px;
+  background-color: rgb(175, 171, 166);
+  color: white;
+}
+
+.sign-up-message {
+  position: relative; 
+  top: -50px;
+  font-size: 28px;
 }
